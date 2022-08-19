@@ -18,7 +18,7 @@ import com.jrp.pma.springExample.Engine;
 import com.jrp.pma.springExample.Tires;
 
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = {"com.jrp.pma","com.jrp.utils"})
 public class ProjectManagementApplication {
 
 	@Autowired
